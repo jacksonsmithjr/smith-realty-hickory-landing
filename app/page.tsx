@@ -83,8 +83,8 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80"
-            alt="Real estate professional helping clients with their home purchase in Hickory, NC"
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80"
+            alt="Couple finding their perfect home in Hickory, NC with help from local real estate experts"
             fill
             className="object-cover"
             priority
