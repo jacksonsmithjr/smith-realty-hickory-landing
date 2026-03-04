@@ -43,6 +43,41 @@ npm run build
 npm start
 ```
 
+## Deployment to Vercel
+
+### Option 1: Using Vercel CLI (Recommended)
+
+1. Make sure you're logged in:
+```bash
+vercel login
+```
+
+2. Deploy to production:
+```bash
+vercel --prod
+```
+
+3. Add your environment variable in Vercel dashboard:
+   - Go to your project settings → Environment Variables
+   - Add `NEXT_PUBLIC_GHL_WEBHOOK_URL` with your webhook URL
+   - Redeploy after adding the variable
+
+### Option 2: Using Vercel Dashboard
+
+1. Push your code to GitHub/GitLab/Bitbucket
+2. Go to [vercel.com](https://vercel.com) and sign in
+3. Click "Add New Project"
+4. Import your repository
+5. Vercel will auto-detect Next.js settings
+6. Add environment variable `NEXT_PUBLIC_GHL_WEBHOOK_URL` in project settings
+7. Click "Deploy"
+
+### Environment Variables
+
+Make sure to add `NEXT_PUBLIC_GHL_WEBHOOK_URL` in your Vercel project settings:
+- Project Settings → Environment Variables
+- Add the variable for Production, Preview, and Development environments
+
 ## Customization
 
 - Update contact information in the footer
