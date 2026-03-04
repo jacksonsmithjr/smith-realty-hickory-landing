@@ -89,7 +89,7 @@ export default function Home() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-navy/70"></div>
+          <div className="absolute inset-0 bg-navy/80"></div>
         </div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
