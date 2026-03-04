@@ -93,7 +93,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Moving to Hickory, NC? We'll Help You Find Home.
+            Moving to Hickory, NC? We&apos;ll Help You Find Home.
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8">
             Local real estate experts specializing in relocation buyers and new construction — homes $350K and up in the Hickory, NC area.
@@ -247,7 +247,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🏫</div>
               <h3 className="text-xl font-semibold text-navy mb-3">Schools & Safety</h3>
               <p className="text-gray-700">
-                Hickory's public schools consistently rank among the best in North Carolina, with strong academic programs and dedicated teachers. The area maintains low crime rates, making it an ideal place to raise a family with peace of mind.
+                Hickory&apos;s public schools consistently rank among the best in North Carolina, with strong academic programs and dedicated teachers. The area maintains low crime rates, making it an ideal place to raise a family with peace of mind.
               </p>
             </div>
             <div className="text-center p-6 rounded-lg bg-warmWhite">
@@ -261,7 +261,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🏔️</div>
               <h3 className="text-xl font-semibold text-navy mb-3">Foothills Lifestyle & Affordability</h3>
               <p className="text-gray-700">
-                Nestled in the beautiful Blue Ridge Foothills, Hickory offers stunning natural beauty with easy access to hiking, lakes, and outdoor recreation. You'll find exceptional value here, with more home for your dollar compared to larger metro areas.
+                Nestled in the beautiful Blue Ridge Foothills, Hickory offers stunning natural beauty with easy access to hiking, lakes, and outdoor recreation. You&apos;ll find exceptional value here, with more home for your dollar compared to larger metro areas.
               </p>
             </div>
           </div>
@@ -279,7 +279,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-sm italic mb-2">
-                "Moving to Hickory from Charlotte was the best decision we made. The team helped us find the perfect new construction home in a great neighborhood. Couldn't be happier!"
+                &quot;Moving to Hickory from Charlotte was the best decision we made. The team helped us find the perfect new construction home in a great neighborhood. Couldn&apos;t be happier!&quot;
               </p>
               <p className="text-xs text-white/80">— Sarah M., Relocated 2023</p>
             </div>
@@ -290,7 +290,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-sm italic mb-2">
-                "As a first-time homebuyer relocating to Hickory, I was nervous about the process. The expert guidance made everything smooth, and I found my dream home within budget."
+                &quot;As a first-time homebuyer relocating to Hickory, I was nervous about the process. The expert guidance made everything smooth, and I found my dream home within budget.&quot;
               </p>
               <p className="text-xs text-white/80">— Michael R., Relocated 2024</p>
             </div>
@@ -301,7 +301,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-sm italic mb-2">
-                "The relocation guide was incredibly helpful, and the team understood exactly what we were looking for. Found a beautiful new construction home near Lake Hickory!"
+                &quot;The relocation guide was incredibly helpful, and the team understood exactly what we were looking for. Found a beautiful new construction home near Lake Hickory!&quot;
               </p>
               <p className="text-xs text-white/80">— Jennifer L., Relocated 2024</p>
             </div>
