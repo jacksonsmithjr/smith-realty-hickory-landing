@@ -52,10 +52,18 @@ export async function POST(request: NextRequest) {
       body: JSON.stringify(payload),
     });
 
+    const responseText = await response.text();
+    let responseData;
+    try {
+      responseData = JSON.parse(responseText);
+    } catch {
+      responseData = { message: responseText };
+    }
+
     if (!response.ok) {
-      console.error('GHL webhook error:', response.status, response.statusText);
+      console.error('GHL webhook error:', response.status, response.statusText, responseData);
       return NextResponse.json(
-        { error: 'Failed to submit lead' },
+        { error: 'Failed to submit lead', details: responseData },
         { status: 500 }
       );
     }
