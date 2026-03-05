@@ -59,6 +59,16 @@ export default function Home() {
 
       if (response.ok) {
         setSubmitStatus('success');
+
+        if (typeof window !== 'undefined' && (window as any).gtag) {
+          (window as any).gtag('event', 'generate_lead', {
+            send_to: 'G-B5KZ2EZLBL',
+            event_category: 'lead',
+            event_label: 'Hickory Relocation Form',
+            value: 1,
+          });
+        }
+
         setFormData({
           firstName: '',
           lastName: '',
